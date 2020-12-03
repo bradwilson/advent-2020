@@ -1,0 +1,38 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "day01",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-day01",
+      "program": "${workspaceFolder}/day01/bin/Debug/net5.0/day01.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/day01/bin/Debug/net5.0",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "day02",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-day02",
+      "program": "${workspaceFolder}/day02/bin/Debug/net5.0/day02.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/day02/bin/Debug/net5.0",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    },
+    {
+      "name": "day03",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-day03",
+      "program": "${workspaceFolder}/day03/bin/Debug/net5.0/day03.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/day03/bin/Debug/net5.0",
+      "console": "internalConsole",
+      "stopAtEntry": false
+    }
+  ]
+}
