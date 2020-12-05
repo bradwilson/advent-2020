@@ -1,6 +1,3 @@
-﻿class Program
-{
-	static void Main()
-	{
-	}
-}
+using System;
+
+Console.WriteLine("Hello, world!");
