@@ -4,6 +4,8 @@ using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
+var stopwatch = Stopwatch.StartNew();
+
 var data =
 	(from line in File.ReadAllLines("input.txt")
 	 where !string.IsNullOrWhiteSpace(line)
@@ -19,8 +21,10 @@ long GetPart2()
 	return 0L;
 }
 
-var stopwatch = Stopwatch.StartNew();
-Console.WriteLine($"Part 1: {GetPart1()}  ::  [{stopwatch.Elapsed}]");
+Console.WriteLine($"[{stopwatch.Elapsed}] Pre-compute");
 
 stopwatch = Stopwatch.StartNew();
-Console.WriteLine($"Part 2: {GetPart2()}  ::  [{stopwatch.Elapsed}]");
+Console.WriteLine($"[{stopwatch.Elapsed}] Part 1: {GetPart1()}");
+
+stopwatch = Stopwatch.StartNew();
+Console.WriteLine($"[{stopwatch.Elapsed}] Part 2: {GetPart2()}");
