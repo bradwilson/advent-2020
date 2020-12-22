@@ -24,7 +24,9 @@ long GetPart2()
 Console.WriteLine($"[{stopwatch.Elapsed}] Pre-compute");
 
 stopwatch = Stopwatch.StartNew();
-Console.WriteLine($"[{stopwatch.Elapsed}] Part 1: {GetPart1()}");
+var part1Result = GetPart1();
+Console.WriteLine($"[{stopwatch.Elapsed}] Part 1: {part1Result}");
 
 stopwatch = Stopwatch.StartNew();
-Console.WriteLine($"[{stopwatch.Elapsed}] Part 2: {GetPart2()}");
+var part2Result = GetPart2();
+Console.WriteLine($"[{stopwatch.Elapsed}] Part 2: {part2Result}");
