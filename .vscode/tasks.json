@@ -264,6 +264,18 @@
         "/consoleloggerparameters:NoSummary"
       ],
       "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "build-day23",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/day23/day23.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
     }
   ]
 }

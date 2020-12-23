@@ -242,6 +242,17 @@
       "cwd": "${workspaceFolder}/day22/bin/Debug/net5.0",
       "console": "internalConsole",
       "stopAtEntry": false
+    },
+    {
+      "name": "day23",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build-day23",
+      "program": "${workspaceFolder}/day23/bin/Debug/net5.0/day23.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/day23/bin/Debug/net5.0",
+      "console": "internalConsole",
+      "stopAtEntry": false
     }
   ]
 }
